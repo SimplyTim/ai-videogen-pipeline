@@ -206,6 +206,10 @@ tempCodeRunnerFile.py
 # Ruff stuff:
 .ruff_cache/
 
+# Pipeline runtime artifacts
+cache/
+output/
+
 # PyPI configuration file
 .pypirc
 

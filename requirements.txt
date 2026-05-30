@@ -1,0 +1,5 @@
+google-genai>=1.18.0
+pydantic>=2.7.0
+cairosvg>=2.7.1
+imageio-ffmpeg>=0.6.0
+resvg-cli==0.44.0b1
