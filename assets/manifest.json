@@ -1,0 +1,1091 @@
+{
+  "assets": [
+    {
+      "id": "lucide_sun_a3955c8b",
+      "filename": "lucide-sun.svg",
+      "label": "sun",
+      "description": "Sun icon for heat, light, daytime, or energy.",
+      "tags": [
+        "day",
+        "heat",
+        "light",
+        "sun"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:10.151027+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/sun.svg; license: ISC."
+    },
+    {
+      "id": "lucide_cloud_28a34022",
+      "filename": "lucide-cloud.svg",
+      "label": "cloud",
+      "description": "Cloud icon for weather, sky, vapor, or storage.",
+      "tags": [
+        "cloud",
+        "sky",
+        "vapor",
+        "weather"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:10.392611+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/cloud.svg; license: ISC."
+    },
+    {
+      "id": "lucide_cloud-rain_4230ba9d",
+      "filename": "lucide-cloud-rain.svg",
+      "label": "rain cloud",
+      "description": "Rain cloud icon for rainfall and weather scenes.",
+      "tags": [
+        "cloud",
+        "rain",
+        "water",
+        "weather"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:10.648011+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/cloud-rain.svg; license: ISC."
+    },
+    {
+      "id": "lucide_droplet_abca4df6",
+      "filename": "lucide-droplet.svg",
+      "label": "water droplet",
+      "description": "Water droplet icon for liquid, rain, hydration, or condensation.",
+      "tags": [
+        "drop",
+        "droplet",
+        "rain",
+        "water"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:10.893129+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/droplet.svg; license: ISC."
+    },
+    {
+      "id": "lucide_droplets_7cc0e91a",
+      "filename": "lucide-droplets.svg",
+      "label": "water droplets",
+      "description": "Multiple droplets icon for rain, water, or splash visuals.",
+      "tags": [
+        "drops",
+        "rain",
+        "splash",
+        "water"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:11.131326+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/droplets.svg; license: ISC."
+    },
+    {
+      "id": "lucide_wind_eb35f6f0",
+      "filename": "lucide-wind.svg",
+      "label": "wind",
+      "description": "Wind lines for air movement, weather, or speed.",
+      "tags": [
+        "air",
+        "motion",
+        "weather",
+        "wind"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:11.605229+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/wind.svg; license: ISC."
+    },
+    {
+      "id": "lucide_snowflake_9b77c3f6",
+      "filename": "lucide-snowflake.svg",
+      "label": "snowflake",
+      "description": "Snowflake icon for cold, winter, ice, or freezing.",
+      "tags": [
+        "cold",
+        "ice",
+        "snow",
+        "winter"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:11.864683+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/snowflake.svg; license: ISC."
+    },
+    {
+      "id": "lucide_leaf_a6cd15ec",
+      "filename": "lucide-leaf.svg",
+      "label": "leaf",
+      "description": "Leaf icon for plants, nature, growth, or sustainability.",
+      "tags": [
+        "growth",
+        "leaf",
+        "nature",
+        "plant"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:12.115530+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/leaf.svg; license: ISC."
+    },
+    {
+      "id": "lucide_tree-pine_dc753fcb",
+      "filename": "lucide-tree-pine.svg",
+      "label": "tree",
+      "description": "Tree icon for forests, ecology, outdoors, or growth.",
+      "tags": [
+        "forest",
+        "nature",
+        "plant",
+        "tree"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:12.369908+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/tree-pine.svg; license: ISC."
+    },
+    {
+      "id": "lucide_flame_cede1462",
+      "filename": "lucide-flame.svg",
+      "label": "flame",
+      "description": "Flame icon for fire, heat, energy, or danger.",
+      "tags": [
+        "energy",
+        "fire",
+        "flame",
+        "heat"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:12.642427+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/flame.svg; license: ISC."
+    },
+    {
+      "id": "lucide_zap_6dd11565",
+      "filename": "lucide-zap.svg",
+      "label": "lightning bolt",
+      "description": "Lightning bolt icon for electricity, power, speed, or energy.",
+      "tags": [
+        "bolt",
+        "electricity",
+        "energy",
+        "power"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:12.853757+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/zap.svg; license: ISC."
+    },
+    {
+      "id": "lucide_battery_bd0e96da",
+      "filename": "lucide-battery.svg",
+      "label": "battery",
+      "description": "Battery icon for stored energy, charging, or power.",
+      "tags": [
+        "battery",
+        "charge",
+        "energy",
+        "power"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:13.102125+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/battery.svg; license: ISC."
+    },
+    {
+      "id": "lucide_recycle_21ce80a2",
+      "filename": "lucide-recycle.svg",
+      "label": "recycle",
+      "description": "Recycle icon for sustainability, reuse, and circular systems.",
+      "tags": [
+        "cycle",
+        "recycle",
+        "reuse",
+        "sustainability"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:13.362609+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/recycle.svg; license: ISC."
+    },
+    {
+      "id": "lucide_globe_82c6b8fa",
+      "filename": "lucide-globe.svg",
+      "label": "globe",
+      "description": "Globe icon for Earth, world, geography, or climate.",
+      "tags": [
+        "earth",
+        "globe",
+        "planet",
+        "world"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:13.594288+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/globe.svg; license: ISC."
+    },
+    {
+      "id": "lucide_map_41300a8e",
+      "filename": "lucide-map.svg",
+      "label": "map",
+      "description": "Map icon for geography, routes, or location.",
+      "tags": [
+        "geography",
+        "location",
+        "map",
+        "route"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:13.822513+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/map.svg; license: ISC."
+    },
+    {
+      "id": "lucide_compass_c5a4d147",
+      "filename": "lucide-compass.svg",
+      "label": "compass",
+      "description": "Compass icon for direction, navigation, or exploration.",
+      "tags": [
+        "compass",
+        "direction",
+        "explore",
+        "navigation"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:14.087932+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/compass.svg; license: ISC."
+    },
+    {
+      "id": "lucide_rocket_2b7887d9",
+      "filename": "lucide-rocket.svg",
+      "label": "rocket",
+      "description": "Rocket icon for space, launch, growth, or acceleration.",
+      "tags": [
+        "growth",
+        "launch",
+        "rocket",
+        "space"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:14.306247+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/rocket.svg; license: ISC."
+    },
+    {
+      "id": "lucide_atom_9ac2f484",
+      "filename": "lucide-atom.svg",
+      "label": "atom",
+      "description": "Atom icon for science, chemistry, physics, or particles.",
+      "tags": [
+        "atom",
+        "chemistry",
+        "physics",
+        "science"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:14.568175+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/atom.svg; license: ISC."
+    },
+    {
+      "id": "lucide_dna_fb1e39ad",
+      "filename": "lucide-dna.svg",
+      "label": "dna",
+      "description": "DNA icon for biology, genetics, cells, or life science.",
+      "tags": [
+        "biology",
+        "dna",
+        "genetics",
+        "science"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:14.835288+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/dna.svg; license: ISC."
+    },
+    {
+      "id": "lucide_microscope_72fab65c",
+      "filename": "lucide-microscope.svg",
+      "label": "microscope",
+      "description": "Microscope icon for science, research, and discovery.",
+      "tags": [
+        "biology",
+        "microscope",
+        "research",
+        "science"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:15.092239+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/microscope.svg; license: ISC."
+    },
+    {
+      "id": "lucide_flask-conical_a2ce857c",
+      "filename": "lucide-flask-conical.svg",
+      "label": "flask",
+      "description": "Conical flask icon for chemistry, experiments, and labs.",
+      "tags": [
+        "chemistry",
+        "experiment",
+        "flask",
+        "lab"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:15.327060+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/flask-conical.svg; license: ISC."
+    },
+    {
+      "id": "lucide_brain_1eb21ec9",
+      "filename": "lucide-brain.svg",
+      "label": "brain",
+      "description": "Brain icon for learning, ideas, memory, or thinking.",
+      "tags": [
+        "brain",
+        "idea",
+        "learning",
+        "mind"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:15.569114+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/brain.svg; license: ISC."
+    },
+    {
+      "id": "lucide_lightbulb_e33bbec1",
+      "filename": "lucide-lightbulb.svg",
+      "label": "lightbulb",
+      "description": "Lightbulb icon for ideas, learning, and insight.",
+      "tags": [
+        "idea",
+        "insight",
+        "learning",
+        "lightbulb"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:15.851802+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/lightbulb.svg; license: ISC."
+    },
+    {
+      "id": "lucide_book-open_a5eb669f",
+      "filename": "lucide-book-open.svg",
+      "label": "open book",
+      "description": "Open book icon for education, reading, and learning.",
+      "tags": [
+        "book",
+        "education",
+        "learning",
+        "reading"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:16.080773+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/book-open.svg; license: ISC."
+    },
+    {
+      "id": "lucide_graduation-cap_326b4a1c",
+      "filename": "lucide-graduation-cap.svg",
+      "label": "graduation cap",
+      "description": "Graduation cap icon for school, lessons, and achievement.",
+      "tags": [
+        "education",
+        "learning",
+        "lesson",
+        "school"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:16.325841+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/graduation-cap.svg; license: ISC."
+    },
+    {
+      "id": "lucide_calculator_a6b19125",
+      "filename": "lucide-calculator.svg",
+      "label": "calculator",
+      "description": "Calculator icon for math, finance, and numbers.",
+      "tags": [
+        "calculator",
+        "finance",
+        "math",
+        "numbers"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:16.583695+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/calculator.svg; license: ISC."
+    },
+    {
+      "id": "lucide_chart-line_8736da84",
+      "filename": "lucide-chart-line.svg",
+      "label": "line chart",
+      "description": "Line chart icon for trends, data, and growth.",
+      "tags": [
+        "chart",
+        "data",
+        "growth",
+        "trend"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:16.822290+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/chart-line.svg; license: ISC."
+    },
+    {
+      "id": "lucide_chart-no-axes-column_5dfd8fc5",
+      "filename": "lucide-chart-no-axes-column.svg",
+      "label": "bar chart",
+      "description": "Bar chart icon for data comparison and statistics.",
+      "tags": [
+        "bar",
+        "chart",
+        "data",
+        "statistics"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:17.072684+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/chart-no-axes-column.svg; license: ISC."
+    },
+    {
+      "id": "lucide_circle-dollar-sign_3c08d3d3",
+      "filename": "lucide-circle-dollar-sign.svg",
+      "label": "dollar sign",
+      "description": "Dollar sign icon for money, finance, and economics.",
+      "tags": [
+        "dollar",
+        "economics",
+        "finance",
+        "money"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:17.318306+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/circle-dollar-sign.svg; license: ISC."
+    },
+    {
+      "id": "lucide_piggy-bank_6e12568a",
+      "filename": "lucide-piggy-bank.svg",
+      "label": "piggy bank",
+      "description": "Piggy bank icon for saving money and budgeting.",
+      "tags": [
+        "budget",
+        "finance",
+        "money",
+        "saving"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:17.555882+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/piggy-bank.svg; license: ISC."
+    },
+    {
+      "id": "lucide_shield-check_8d4fcdbd",
+      "filename": "lucide-shield-check.svg",
+      "label": "shield check",
+      "description": "Shield check icon for safety, security, and trust.",
+      "tags": [
+        "safety",
+        "security",
+        "shield",
+        "trust"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:17.811017+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/shield-check.svg; license: ISC."
+    },
+    {
+      "id": "lucide_lock-keyhole_fc0b8b75",
+      "filename": "lucide-lock-keyhole.svg",
+      "label": "lock",
+      "description": "Lock icon for privacy, security, and protected data.",
+      "tags": [
+        "data",
+        "lock",
+        "privacy",
+        "security"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:18.065645+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/lock-keyhole.svg; license: ISC."
+    },
+    {
+      "id": "lucide_wifi_5c4c795d",
+      "filename": "lucide-wifi.svg",
+      "label": "wifi",
+      "description": "Wi-Fi icon for networks, signal, and connectivity.",
+      "tags": [
+        "internet",
+        "network",
+        "signal",
+        "wifi"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:18.318716+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/wifi.svg; license: ISC."
+    },
+    {
+      "id": "lucide_smartphone_f9fdb700",
+      "filename": "lucide-smartphone.svg",
+      "label": "smartphone",
+      "description": "Smartphone icon for mobile devices and apps.",
+      "tags": [
+        "app",
+        "mobile",
+        "phone",
+        "smartphone"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:18.580937+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/smartphone.svg; license: ISC."
+    },
+    {
+      "id": "lucide_monitor_d1a44323",
+      "filename": "lucide-monitor.svg",
+      "label": "computer monitor",
+      "description": "Monitor icon for computers, screens, and dashboards.",
+      "tags": [
+        "computer",
+        "monitor",
+        "screen",
+        "technology"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:18.818019+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/monitor.svg; license: ISC."
+    },
+    {
+      "id": "lucide_cpu_ec83bb69",
+      "filename": "lucide-cpu.svg",
+      "label": "cpu chip",
+      "description": "CPU chip icon for computing, processors, and AI.",
+      "tags": [
+        "ai",
+        "chip",
+        "computer",
+        "cpu"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:19.026130+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/cpu.svg; license: ISC."
+    },
+    {
+      "id": "lucide_database_471eb14b",
+      "filename": "lucide-database.svg",
+      "label": "database",
+      "description": "Database icon for storage, records, and information.",
+      "tags": [
+        "data",
+        "database",
+        "records",
+        "storage"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:19.273755+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/database.svg; license: ISC."
+    },
+    {
+      "id": "lucide_server_f7bea54b",
+      "filename": "lucide-server.svg",
+      "label": "server",
+      "description": "Server icon for backend systems, hosting, and infrastructure.",
+      "tags": [
+        "backend",
+        "hosting",
+        "infrastructure",
+        "server"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:19.517936+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/server.svg; license: ISC."
+    },
+    {
+      "id": "lucide_factory_5482b8d7",
+      "filename": "lucide-factory.svg",
+      "label": "factory",
+      "description": "Factory icon for industry, manufacturing, or production.",
+      "tags": [
+        "factory",
+        "industry",
+        "manufacturing",
+        "production"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:19.762920+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/factory.svg; license: ISC."
+    },
+    {
+      "id": "lucide_car_6d70bc14",
+      "filename": "lucide-car.svg",
+      "label": "car",
+      "description": "Car icon for transportation, roads, and travel.",
+      "tags": [
+        "car",
+        "road",
+        "transport",
+        "travel"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:20.004724+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/car.svg; license: ISC."
+    },
+    {
+      "id": "lucide_bus_653d2c10",
+      "filename": "lucide-bus.svg",
+      "label": "bus",
+      "description": "Bus icon for public transit and transportation.",
+      "tags": [
+        "bus",
+        "transit",
+        "transport",
+        "travel"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:20.258994+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/bus.svg; license: ISC."
+    },
+    {
+      "id": "lucide_plane_4c775a62",
+      "filename": "lucide-plane.svg",
+      "label": "plane",
+      "description": "Plane icon for flight, travel, and global movement.",
+      "tags": [
+        "air",
+        "flight",
+        "plane",
+        "travel"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:20.526523+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/plane.svg; license: ISC."
+    },
+    {
+      "id": "lucide_bike_eb129250",
+      "filename": "lucide-bike.svg",
+      "label": "bike",
+      "description": "Bike icon for cycling, transport, and healthy movement.",
+      "tags": [
+        "bike",
+        "cycling",
+        "movement",
+        "transport"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:20.773873+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/bike.svg; license: ISC."
+    },
+    {
+      "id": "lucide_heart-pulse_103d6b99",
+      "filename": "lucide-heart-pulse.svg",
+      "label": "heart pulse",
+      "description": "Heart pulse icon for health, fitness, and care.",
+      "tags": [
+        "care",
+        "health",
+        "heart",
+        "pulse"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:21.283812+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/heart-pulse.svg; license: ISC."
+    },
+    {
+      "id": "lucide_activity_050fbcda",
+      "filename": "lucide-activity.svg",
+      "label": "activity",
+      "description": "Activity waveform icon for metrics, motion, and health.",
+      "tags": [
+        "activity",
+        "health",
+        "metrics",
+        "motion"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:21.537450+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/activity.svg; license: ISC."
+    },
+    {
+      "id": "lucide_sparkles_f5499f33",
+      "filename": "lucide-sparkles.svg",
+      "label": "sparkles",
+      "description": "Sparkles icon for magic, emphasis, fun, or highlights.",
+      "tags": [
+        "fun",
+        "highlight",
+        "magic",
+        "sparkle"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:21.775459+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/sparkles.svg; license: ISC."
+    },
+    {
+      "id": "lucide_circle_3a991bd4",
+      "filename": "lucide-circle.svg",
+      "label": "circle",
+      "description": "Simple circle icon for placeholders, dots, and abstract diagrams.",
+      "tags": [
+        "circle",
+        "diagram",
+        "dot",
+        "simple"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:21.994882+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/circle.svg; license: ISC."
+    },
+    {
+      "id": "lucide_arrow-right_288397fd",
+      "filename": "lucide-arrow-right.svg",
+      "label": "right arrow",
+      "description": "Right arrow icon for flow, next steps, and direction.",
+      "tags": [
+        "arrow",
+        "direction",
+        "flow",
+        "right"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:22.234948+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/arrow-right.svg; license: ISC."
+    },
+    {
+      "id": "lucide_refresh-cw_2e10dd40",
+      "filename": "lucide-refresh-cw.svg",
+      "label": "cycle arrows",
+      "description": "Circular arrows for cycles, refresh, reuse, or loops.",
+      "tags": [
+        "arrow",
+        "cycle",
+        "loop",
+        "refresh"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:47:22.578319+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/refresh-cw.svg; license: ISC."
+    },
+    {
+      "id": "lucide_audio-waveform_d4b6f62b",
+      "filename": "lucide-audio-waveform.svg",
+      "label": "waveform",
+      "description": "Waveform lines for sound, signal, rhythm, or motion.",
+      "tags": [
+        "motion",
+        "signal",
+        "sound",
+        "wave"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:48:08.877039+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/audio-waveform.svg; license: ISC."
+    },
+    {
+      "id": "lucide_house_28216c47",
+      "filename": "lucide-house.svg",
+      "label": "home",
+      "description": "Home icon for houses, shelter, and daily life.",
+      "tags": [
+        "home",
+        "house",
+        "life",
+        "shelter"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-30T17:48:09.105873+00:00",
+      "source_prompt": "Open-source Lucide SVG icon downloaded from https://raw.githubusercontent.com/lucide-icons/lucide/main/icons/house.svg; license: ISC."
+    },
+    {
+      "id": "bootstrap_emoji-smile_b43fbfdd",
+      "filename": "bootstrap-emoji-smile.svg",
+      "label": "happy face",
+      "description": "Smiling face icon for friendly characters.",
+      "tags": [
+        "character",
+        "face",
+        "happy",
+        "smile"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-30T18:43:11.848308+00:00",
+      "source_prompt": "Open-source Bootstrap SVG icon downloaded from https://raw.githubusercontent.com/twbs/icons/main/icons/emoji-smile.svg; license: MIT."
+    },
+    {
+      "id": "bootstrap_emoji-laughing_0dd2c079",
+      "filename": "bootstrap-emoji-laughing.svg",
+      "label": "laughing face",
+      "description": "Laughing face icon for jokes, fun, and playful reactions.",
+      "tags": [
+        "character",
+        "face",
+        "fun",
+        "laugh"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-30T18:43:12.034615+00:00",
+      "source_prompt": "Open-source Bootstrap SVG icon downloaded from https://raw.githubusercontent.com/twbs/icons/main/icons/emoji-laughing.svg; license: MIT."
+    },
+    {
+      "id": "bootstrap_emoji-surprise_f5b1ed3e",
+      "filename": "bootstrap-emoji-surprise.svg",
+      "label": "surprised face",
+      "description": "Surprised face icon for sudden reveals or wow moments.",
+      "tags": [
+        "character",
+        "face",
+        "surprise",
+        "wow"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-30T18:43:12.211556+00:00",
+      "source_prompt": "Open-source Bootstrap SVG icon downloaded from https://raw.githubusercontent.com/twbs/icons/main/icons/emoji-surprise.svg; license: MIT."
+    },
+    {
+      "id": "bootstrap_emoji-sunglasses_472bd0fe",
+      "filename": "bootstrap-emoji-sunglasses.svg",
+      "label": "cool face",
+      "description": "Cool face icon for confident or stylish reactions.",
+      "tags": [
+        "character",
+        "cool",
+        "face",
+        "sunglasses"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-30T18:43:12.381526+00:00",
+      "source_prompt": "Open-source Bootstrap SVG icon downloaded from https://raw.githubusercontent.com/twbs/icons/main/icons/emoji-sunglasses.svg; license: MIT."
+    },
+    {
+      "id": "bootstrap_emoji-heart-eyes_537be85c",
+      "filename": "bootstrap-emoji-heart-eyes.svg",
+      "label": "excited face",
+      "description": "Excited face icon for delight, discovery, or big enthusiasm.",
+      "tags": [
+        "character",
+        "excited",
+        "face",
+        "heart"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-30T18:43:12.569229+00:00",
+      "source_prompt": "Open-source Bootstrap SVG icon downloaded from https://raw.githubusercontent.com/twbs/icons/main/icons/emoji-heart-eyes.svg; license: MIT."
+    },
+    {
+      "id": "bootstrap_emoji-wink_0093ac32",
+      "filename": "bootstrap-emoji-wink.svg",
+      "label": "winking face",
+      "description": "Winking face icon for playful asides or friendly jokes.",
+      "tags": [
+        "character",
+        "face",
+        "playful",
+        "wink"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-30T18:43:12.767629+00:00",
+      "source_prompt": "Open-source Bootstrap SVG icon downloaded from https://raw.githubusercontent.com/twbs/icons/main/icons/emoji-wink.svg; license: MIT."
+    },
+    {
+      "id": "bootstrap_person_e071db1b",
+      "filename": "bootstrap-person.svg",
+      "label": "person",
+      "description": "Simple person icon for human characters.",
+      "tags": [
+        "character",
+        "human",
+        "people",
+        "person"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-30T18:43:12.990245+00:00",
+      "source_prompt": "Open-source Bootstrap SVG icon downloaded from https://raw.githubusercontent.com/twbs/icons/main/icons/person.svg; license: MIT."
+    },
+    {
+      "id": "bootstrap_person-standing_3ee7efa8",
+      "filename": "bootstrap-person-standing.svg",
+      "label": "standing person",
+      "description": "Standing person icon for presenter or character scenes.",
+      "tags": [
+        "character",
+        "human",
+        "person",
+        "standing"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-30T18:43:13.178640+00:00",
+      "source_prompt": "Open-source Bootstrap SVG icon downloaded from https://raw.githubusercontent.com/twbs/icons/main/icons/person-standing.svg; license: MIT."
+    },
+    {
+      "id": "bootstrap_person-arms-up_a856b565",
+      "filename": "bootstrap-person-arms-up.svg",
+      "label": "excited person",
+      "description": "Person with raised arms for excitement, success, or celebration.",
+      "tags": [
+        "celebrate",
+        "excited",
+        "human",
+        "person"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-30T18:43:13.359561+00:00",
+      "source_prompt": "Open-source Bootstrap SVG icon downloaded from https://raw.githubusercontent.com/twbs/icons/main/icons/person-arms-up.svg; license: MIT."
+    },
+    {
+      "id": "bootstrap_person-raised-hand_f0381e08",
+      "filename": "bootstrap-person-raised-hand.svg",
+      "label": "person raising hand",
+      "description": "Person raising hand for questions, answers, or participation.",
+      "tags": [
+        "hand",
+        "human",
+        "person",
+        "question"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-30T18:43:13.529202+00:00",
+      "source_prompt": "Open-source Bootstrap SVG icon downloaded from https://raw.githubusercontent.com/twbs/icons/main/icons/person-raised-hand.svg; license: MIT."
+    },
+    {
+      "id": "bootstrap_person-walking_d4aea51d",
+      "filename": "bootstrap-person-walking.svg",
+      "label": "walking person",
+      "description": "Walking person icon for motion, travel, or journeys.",
+      "tags": [
+        "human",
+        "movement",
+        "person",
+        "walking"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-30T18:43:13.724908+00:00",
+      "source_prompt": "Open-source Bootstrap SVG icon downloaded from https://raw.githubusercontent.com/twbs/icons/main/icons/person-walking.svg; license: MIT."
+    },
+    {
+      "id": "bootstrap_universal-access_7075103c",
+      "filename": "bootstrap-universal-access.svg",
+      "label": "person circle",
+      "description": "Person in a circle for simple full-body character composition.",
+      "tags": [
+        "character",
+        "circle",
+        "human",
+        "person"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-30T18:43:13.923591+00:00",
+      "source_prompt": "Open-source Bootstrap SVG icon downloaded from https://raw.githubusercontent.com/twbs/icons/main/icons/universal-access.svg; license: MIT."
+    },
+    {
+      "id": "svgrepo_raindrop_c10ca468",
+      "filename": "svgrepo-raindrop.svg",
+      "label": "colorful raindrop",
+      "description": "Colorful raindrop illustration for a friendly water character.",
+      "tags": [
+        "character",
+        "color",
+        "drop",
+        "raindrop",
+        "water"
+      ],
+      "viewBox": "0 0 494.4 494.4",
+      "created_at": "2026-05-30T19:16:48.159810+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/78833/raindrop.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_water-drop_763eb83e",
+      "filename": "svgrepo-water-drop.svg",
+      "label": "water drop character",
+      "description": "Large water-drop illustration for a main droplet character.",
+      "tags": [
+        "blue",
+        "character",
+        "drop",
+        "droplet",
+        "water"
+      ],
+      "viewBox": "0 0 264.564 264.564",
+      "created_at": "2026-05-30T19:16:48.631294+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/120133/water-drop.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_raindrops_7db1dd88",
+      "filename": "svgrepo-raindrops.svg",
+      "label": "falling raindrops",
+      "description": "Cluster of falling raindrops for rainy scenes.",
+      "tags": [
+        "rain",
+        "raindrops",
+        "water",
+        "weather"
+      ],
+      "viewBox": "0 0 462.475 462.475",
+      "created_at": "2026-05-30T19:16:48.934815+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/162559/raindrops.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_cloud-sun_da23e0d0",
+      "filename": "svgrepo-cloud-sun.svg",
+      "label": "colorful cloud sun",
+      "description": "Cloud and sun illustration for evaporation and warm weather scenes.",
+      "tags": [
+        "cloud",
+        "evaporation",
+        "sky",
+        "sun",
+        "weather"
+      ],
+      "viewBox": "0 -0.5 25 25",
+      "created_at": "2026-05-30T19:16:49.232441+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/520646/cloud-sun.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_sun-cloud-and-rain_1680a679",
+      "filename": "svgrepo-sun-cloud-and-rain.svg",
+      "label": "sun cloud rain scene",
+      "description": "Weather scene with sun, cloud, and rain.",
+      "tags": [
+        "cloud",
+        "cycle",
+        "rain",
+        "sun",
+        "weather"
+      ],
+      "viewBox": "0 0 367.806 367.806",
+      "created_at": "2026-05-30T19:16:49.701814+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/97828/sun-cloud-and-rain.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_mountain-river_a11199da",
+      "filename": "svgrepo-mountain-river.svg",
+      "label": "mountain river",
+      "description": "Mountain river illustration for runoff and flowing water.",
+      "tags": [
+        "landscape",
+        "mountain",
+        "river",
+        "runoff",
+        "water"
+      ],
+      "viewBox": "0 0 512 512",
+      "created_at": "2026-05-30T19:17:06.720130+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/224055/mountain-river.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_water_04586991",
+      "filename": "svgrepo-water.svg",
+      "label": "water splash",
+      "description": "Water splash illustration for oceans, lakes, or collection.",
+      "tags": [
+        "blue",
+        "liquid",
+        "splash",
+        "water"
+      ],
+      "viewBox": "0 0 512 512",
+      "created_at": "2026-05-30T19:17:07.030234+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/297151/water.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_happy-kids_f1c654ff",
+      "filename": "svgrepo-happy-kids.svg",
+      "label": "happy kids illustration",
+      "description": "Happy kids illustration for playful educational videos.",
+      "tags": [
+        "education",
+        "fun",
+        "happy",
+        "kids",
+        "people"
+      ],
+      "viewBox": "0 0 470 470",
+      "created_at": "2026-05-30T19:17:07.337760+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/1992/happy-kids.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_happy-kid-playground_de407f1b",
+      "filename": "svgrepo-happy-kid-playground.svg",
+      "label": "playful kid illustration",
+      "description": "Playful kid illustration for friendly explainer scenes.",
+      "tags": [
+        "education",
+        "fun",
+        "kid",
+        "person",
+        "playful"
+      ],
+      "viewBox": "0 0 32 32",
+      "created_at": "2026-05-30T19:17:07.628640+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/418280/happy-kid-playground.svg; license: CC0."
+    }
+  ]
+}
