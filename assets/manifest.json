@@ -1086,6 +1086,1285 @@
       "viewBox": "0 0 32 32",
       "created_at": "2026-05-30T19:17:07.628640+00:00",
       "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/418280/happy-kid-playground.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_medieval-castle_fc3c036e",
+      "filename": "svgrepo-medieval-castle.svg",
+      "label": "medieval castle",
+      "description": "Medieval castle illustration for fantasy kingdom scenes.",
+      "tags": [
+        "castle",
+        "fantasy",
+        "fortress",
+        "kingdom",
+        "medieval"
+      ],
+      "viewBox": "0 0 14 14",
+      "created_at": "2026-05-31T04:24:30.131510+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/444137/medieval-castle.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_knight_ddfe65d1",
+      "filename": "svgrepo-knight.svg",
+      "label": "young knight",
+      "description": "Knight figure for quest, courage, and adventure scenes.",
+      "tags": [
+        "fantasy",
+        "hero",
+        "knight",
+        "quest",
+        "sword"
+      ],
+      "viewBox": "0 0 59.001 59.001",
+      "created_at": "2026-05-31T04:24:31.753673+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/162875/knight.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_knight-helmet_04bb4a6e",
+      "filename": "svgrepo-knight-helmet.svg",
+      "label": "knight helmet",
+      "description": "Knight helmet icon for armor, identity, and dramatic close-ups.",
+      "tags": [
+        "armor",
+        "helmet",
+        "knight",
+        "medieval"
+      ],
+      "viewBox": "0 0 1000 1000",
+      "created_at": "2026-05-31T04:24:32.197338+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/307023/knight-helmet.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_dragon_c1054f5b",
+      "filename": "svgrepo-dragon.svg",
+      "label": "dragon",
+      "description": "Dragon illustration for fantasy threats, ancient curses, and cliffhangers.",
+      "tags": [
+        "curse",
+        "dragon",
+        "fantasy",
+        "fire",
+        "monster"
+      ],
+      "viewBox": "0 0 64 64",
+      "created_at": "2026-05-31T04:24:32.738444+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/403214/dragon.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_sword_e88670d7",
+      "filename": "svgrepo-sword.svg",
+      "label": "sword",
+      "description": "Sword icon for quests, danger, and heroic reveals.",
+      "tags": [
+        "knight",
+        "quest",
+        "sword",
+        "weapon"
+      ],
+      "viewBox": "0 0 463.627 463.627",
+      "created_at": "2026-05-31T04:24:33.920390+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/66502/sword.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_excalibur-sword_cfed05e9",
+      "filename": "svgrepo-excalibur-sword.svg",
+      "label": "glowing sword",
+      "description": "Legendary sword illustration for magic and royal destiny.",
+      "tags": [
+        "excalibur",
+        "legend",
+        "magic",
+        "sword"
+      ],
+      "viewBox": "0 0 512 512",
+      "created_at": "2026-05-31T04:24:34.463097+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/254373/excalibur-sword.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_shield-with-crown_2f7216dc",
+      "filename": "svgrepo-shield-with-crown.svg",
+      "label": "royal shield",
+      "description": "Shield with crown for kingdom, royal guard, and ancient seal scenes.",
+      "tags": [
+        "crown",
+        "kingdom",
+        "royal",
+        "seal",
+        "shield"
+      ],
+      "viewBox": "0 0 214 214",
+      "created_at": "2026-05-31T04:24:34.956634+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/50129/shield-with-crown.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_crown_19a246ae",
+      "filename": "svgrepo-crown.svg",
+      "label": "crown",
+      "description": "Crown icon for royal bloodlines, princesses, and throne-room scenes.",
+      "tags": [
+        "crown",
+        "kingdom",
+        "princess",
+        "royal"
+      ],
+      "viewBox": "0 0 455 455",
+      "created_at": "2026-05-31T04:24:35.454309+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/30829/crown.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_princess_b68aeb3a",
+      "filename": "svgrepo-princess.svg",
+      "label": "hidden princess",
+      "description": "Princess illustration for hidden heir and rescue story beats.",
+      "tags": [
+        "character",
+        "heir",
+        "princess",
+        "royal"
+      ],
+      "viewBox": "0 0 1024 1024",
+      "created_at": "2026-05-31T04:24:35.927161+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/508393/princess.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_crystal_4f705583",
+      "filename": "svgrepo-crystal.svg",
+      "label": "magic crystal",
+      "description": "Crystal illustration for spells, prisons, and glowing magical objects.",
+      "tags": [
+        "crystal",
+        "magic",
+        "prison",
+        "spell"
+      ],
+      "viewBox": "0 0 32 32",
+      "created_at": "2026-05-31T04:24:36.468419+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/373532/crystal.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_crystals_a97d25f9",
+      "filename": "svgrepo-crystals.svg",
+      "label": "crystal cluster",
+      "description": "Cluster of crystals for caves, magic halls, and enchanted prisons.",
+      "tags": [
+        "cave",
+        "cluster",
+        "crystal",
+        "magic"
+      ],
+      "viewBox": "0 0 32 32",
+      "created_at": "2026-05-31T04:24:36.962730+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/499101/crystals.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_door-open_20263d67",
+      "filename": "svgrepo-door-open.svg",
+      "label": "open stone door",
+      "description": "Open door icon for secret passages and dramatic reveals.",
+      "tags": [
+        "door",
+        "open",
+        "passage",
+        "secret"
+      ],
+      "viewBox": "0 -64 640 640",
+      "created_at": "2026-05-31T04:24:37.461627+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/351965/door-open.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_dungeon_37224b49",
+      "filename": "svgrepo-dungeon.svg",
+      "label": "dungeon",
+      "description": "Dungeon icon for underground chambers and castle catacombs.",
+      "tags": [
+        "castle",
+        "chamber",
+        "dungeon",
+        "underground"
+      ],
+      "viewBox": "0 0 512 512",
+      "created_at": "2026-05-31T04:24:38.460876+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/351978/dungeon.svg; license: CC0."
+    },
+    {
+      "id": "svgrepo_eye_2d817d56",
+      "filename": "svgrepo-eye.svg",
+      "label": "giant eye",
+      "description": "Eye icon for ominous cliffhanger reveals and hidden monsters.",
+      "tags": [
+        "cliffhanger",
+        "eye",
+        "monster",
+        "watching"
+      ],
+      "viewBox": "0 0 16 16",
+      "created_at": "2026-05-31T04:24:39.682094+00:00",
+      "source_prompt": "Open-source Svgrepo SVG icon downloaded from https://www.svgrepo.com/show/344769/eye.svg; license: CC0."
+    },
+    {
+      "id": "tabler_math-symbols_fd077c65",
+      "filename": "tabler-math-symbols.svg",
+      "label": "math symbols",
+      "description": "Core math symbols for equations and notation callouts.",
+      "tags": [
+        "education",
+        "math",
+        "operator",
+        "symbols"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:46.133279+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-symbols.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math_6f8e8af8",
+      "filename": "tabler-math.svg",
+      "label": "math notation",
+      "description": "General math notation icon for lesson introductions.",
+      "tags": [
+        "education",
+        "math",
+        "notation"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:46.388431+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-function_b4fb1c5e",
+      "filename": "tabler-math-function.svg",
+      "label": "function curve",
+      "description": "Function graph icon for f(x), transformations, and mappings.",
+      "tags": [
+        "curve",
+        "function",
+        "graph",
+        "math"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:46.643173+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-function.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-function-y_4341aae6",
+      "filename": "tabler-math-function-y.svg",
+      "label": "y function",
+      "description": "Y equals function icon for coordinate graph explanations.",
+      "tags": [
+        "function",
+        "graph",
+        "math",
+        "y"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:47.902908+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-function-y.svg; license: MIT."
+    },
+    {
+      "id": "tabler_function_fc8b35f0",
+      "filename": "tabler-function.svg",
+      "label": "function symbol",
+      "description": "Function symbol for reusable function and mapping visuals.",
+      "tags": [
+        "function",
+        "math",
+        "symbol"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:48.152448+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/function.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-integral_c6878ccf",
+      "filename": "tabler-math-integral.svg",
+      "label": "integral symbol",
+      "description": "Integral symbol for calculus and accumulation visuals.",
+      "tags": [
+        "calculus",
+        "integral",
+        "math"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:48.492292+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-integral.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-integrals_a67fd635",
+      "filename": "tabler-math-integrals.svg",
+      "label": "multiple integrals",
+      "description": "Multiple integral symbols for advanced calculus visuals.",
+      "tags": [
+        "calculus",
+        "integral",
+        "math"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:48.729362+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-integrals.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-pi_97f3614d",
+      "filename": "tabler-math-pi.svg",
+      "label": "pi symbol",
+      "description": "Pi symbol for circles, radians, and constants.",
+      "tags": [
+        "constant",
+        "geometry",
+        "math",
+        "pi"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:48.967747+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-pi.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-avg_49221398",
+      "filename": "tabler-math-avg.svg",
+      "label": "average symbol",
+      "description": "Average symbol for statistics and mean value lessons.",
+      "tags": [
+        "average",
+        "data",
+        "math",
+        "statistics"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:49.206818+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-avg.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-max-min_5ef72dce",
+      "filename": "tabler-math-max-min.svg",
+      "label": "max min symbol",
+      "description": "Max/min symbol for optimization and bounds.",
+      "tags": [
+        "math",
+        "maximum",
+        "minimum",
+        "optimization"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:49.526173+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-max-min.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-sin_63363b41",
+      "filename": "tabler-math-sin.svg",
+      "label": "sine function",
+      "description": "Sine function icon for trigonometry and waves.",
+      "tags": [
+        "math",
+        "sine",
+        "trigonometry",
+        "wave"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:49.748805+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-sin.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-cos_a742bf86",
+      "filename": "tabler-math-cos.svg",
+      "label": "cosine function",
+      "description": "Cosine function icon for trigonometry and periodic motion.",
+      "tags": [
+        "cosine",
+        "math",
+        "trigonometry",
+        "wave"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:50.111926+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-cos.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-x-plus-y_2c138928",
+      "filename": "tabler-math-x-plus-y.svg",
+      "label": "x plus y",
+      "description": "Algebraic x plus y expression for addition examples.",
+      "tags": [
+        "addition",
+        "algebra",
+        "math"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:50.388061+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-x-plus-y.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-x-minus-y_aa7ec493",
+      "filename": "tabler-math-x-minus-y.svg",
+      "label": "x minus y",
+      "description": "Algebraic x minus y expression for subtraction examples.",
+      "tags": [
+        "algebra",
+        "math",
+        "subtraction"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:50.610859+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-x-minus-y.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-x-divide-y_abf198a3",
+      "filename": "tabler-math-x-divide-y.svg",
+      "label": "x divided by y",
+      "description": "Algebraic division expression for ratios and fractions.",
+      "tags": [
+        "algebra",
+        "division",
+        "math",
+        "ratio"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:50.866950+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-x-divide-y.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-equal-greater_f9aac8e7",
+      "filename": "tabler-math-equal-greater.svg",
+      "label": "greater or equal",
+      "description": "Greater-than-or-equal symbol for inequalities.",
+      "tags": [
+        "inequality",
+        "math",
+        "operator"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:51.106036+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-equal-greater.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-equal-lower_35acc01f",
+      "filename": "tabler-math-equal-lower.svg",
+      "label": "less or equal",
+      "description": "Less-than-or-equal symbol for inequalities.",
+      "tags": [
+        "inequality",
+        "math",
+        "operator"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:51.344443+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-equal-lower.svg; license: MIT."
+    },
+    {
+      "id": "tabler_math-not_3e765c84",
+      "filename": "tabler-math-not.svg",
+      "label": "not operator",
+      "description": "Not operator for logic, negation, and inequalities.",
+      "tags": [
+        "logic",
+        "math",
+        "operator"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:51.600245+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/math-not.svg; license: MIT."
+    },
+    {
+      "id": "tabler_infinity_46befda9",
+      "filename": "tabler-infinity.svg",
+      "label": "infinity symbol",
+      "description": "Infinity symbol for limits, loops, and unbounded growth.",
+      "tags": [
+        "infinity",
+        "limit",
+        "loop",
+        "math"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:51.941226+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/infinity.svg; license: MIT."
+    },
+    {
+      "id": "tabler_lambda_82132f71",
+      "filename": "tabler-lambda.svg",
+      "label": "lambda symbol",
+      "description": "Lambda symbol for functions, calculus, and functional programming.",
+      "tags": [
+        "cs",
+        "function",
+        "lambda",
+        "math"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:52.175576+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/lambda.svg; license: MIT."
+    },
+    {
+      "id": "tabler_delta_4f830db1",
+      "filename": "tabler-delta.svg",
+      "label": "delta symbol",
+      "description": "Delta symbol for change, differences, and gradients.",
+      "tags": [
+        "calculus",
+        "change",
+        "delta",
+        "math"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:52.507748+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/delta.svg; license: MIT."
+    },
+    {
+      "id": "tabler_omega_7a8814da",
+      "filename": "tabler-omega.svg",
+      "label": "omega symbol",
+      "description": "Omega symbol for asymptotic bounds and constants.",
+      "tags": [
+        "complexity",
+        "cs",
+        "math",
+        "omega"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:52.778267+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/omega.svg; license: MIT."
+    },
+    {
+      "id": "tabler_abacus_1a29572c",
+      "filename": "tabler-abacus.svg",
+      "label": "abacus",
+      "description": "Abacus icon for arithmetic and number sense.",
+      "tags": [
+        "arithmetic",
+        "education",
+        "math",
+        "numbers"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:53.128727+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/abacus.svg; license: MIT."
+    },
+    {
+      "id": "tabler_percentage_f14f1102",
+      "filename": "tabler-percentage.svg",
+      "label": "percentage symbol",
+      "description": "Percentage symbol for rates, proportions, and statistics.",
+      "tags": [
+        "math",
+        "percentage",
+        "ratio",
+        "statistics"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:53.366570+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/percentage.svg; license: MIT."
+    },
+    {
+      "id": "tabler_plus-minus_3f834ad9",
+      "filename": "tabler-plus-minus.svg",
+      "label": "plus minus",
+      "description": "Plus-minus operator for uncertainty and positive/negative cases.",
+      "tags": [
+        "math",
+        "minus",
+        "operator",
+        "plus"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:53.638493+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/plus-minus.svg; license: MIT."
+    },
+    {
+      "id": "tabler_equal_e6ca5729",
+      "filename": "tabler-equal.svg",
+      "label": "equals sign",
+      "description": "Equals sign for equations and comparisons.",
+      "tags": [
+        "equals",
+        "equation",
+        "math",
+        "operator"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:53.957472+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/equal.svg; license: MIT."
+    },
+    {
+      "id": "tabler_equal-not_e4ed69b7",
+      "filename": "tabler-equal-not.svg",
+      "label": "not equal sign",
+      "description": "Not-equal sign for comparisons and logic.",
+      "tags": [
+        "logic",
+        "math",
+        "not-equal",
+        "operator"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:54.219193+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/equal-not.svg; license: MIT."
+    },
+    {
+      "id": "tabler_divide_c365d095",
+      "filename": "tabler-divide.svg",
+      "label": "division sign",
+      "description": "Division sign for ratios and fractions.",
+      "tags": [
+        "division",
+        "math",
+        "operator"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:54.477723+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/divide.svg; license: MIT."
+    },
+    {
+      "id": "tabler_axis-x_2283c68d",
+      "filename": "tabler-axis-x.svg",
+      "label": "axis x",
+      "description": "X-axis icon for coordinate planes and graphs.",
+      "tags": [
+        "axis",
+        "graph",
+        "math",
+        "x"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:54.721415+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/axis-x.svg; license: MIT."
+    },
+    {
+      "id": "tabler_axis-y_7ef63eb2",
+      "filename": "tabler-axis-y.svg",
+      "label": "axis y",
+      "description": "Y-axis icon for coordinate planes and graphs.",
+      "tags": [
+        "axis",
+        "graph",
+        "math",
+        "y"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:55.087606+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/axis-y.svg; license: MIT."
+    },
+    {
+      "id": "tabler_graph_2b8f9ecf",
+      "filename": "tabler-graph.svg",
+      "label": "graph network",
+      "description": "Graph/network icon for nodes, edges, and relationships.",
+      "tags": [
+        "cs",
+        "graph",
+        "math",
+        "network"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:55.348271+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/graph.svg; license: MIT."
+    },
+    {
+      "id": "tabler_chart-scatter_ba397932",
+      "filename": "tabler-chart-scatter.svg",
+      "label": "scatter plot",
+      "description": "Scatter plot icon for datasets and correlation.",
+      "tags": [
+        "chart",
+        "data",
+        "math",
+        "scatter"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:55.599394+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/chart-scatter.svg; license: MIT."
+    },
+    {
+      "id": "tabler_chart-histogram_90a71407",
+      "filename": "tabler-chart-histogram.svg",
+      "label": "histogram",
+      "description": "Histogram icon for distributions and frequency bins.",
+      "tags": [
+        "data",
+        "histogram",
+        "math",
+        "statistics"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:55.824027+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/chart-histogram.svg; license: MIT."
+    },
+    {
+      "id": "tabler_chart-treemap_4e6ad024",
+      "filename": "tabler-chart-treemap.svg",
+      "label": "treemap chart",
+      "description": "Treemap icon for nested proportions and partitions.",
+      "tags": [
+        "chart",
+        "data",
+        "math",
+        "tree"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:56.064715+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/chart-treemap.svg; license: MIT."
+    },
+    {
+      "id": "tabler_matrix_4227d71f",
+      "filename": "tabler-matrix.svg",
+      "label": "matrix",
+      "description": "Matrix icon for linear algebra and grids of numbers.",
+      "tags": [
+        "data",
+        "linear-algebra",
+        "math",
+        "matrix"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:56.429294+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/matrix.svg; license: MIT."
+    },
+    {
+      "id": "tabler_vector_a631bd29",
+      "filename": "tabler-vector.svg",
+      "label": "vector",
+      "description": "Vector icon for geometry, direction, and linear algebra.",
+      "tags": [
+        "geometry",
+        "math",
+        "vector"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:56.685161+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/vector.svg; license: MIT."
+    },
+    {
+      "id": "tabler_angle_f0b39311",
+      "filename": "tabler-angle.svg",
+      "label": "angle",
+      "description": "Angle icon for geometry and trigonometry.",
+      "tags": [
+        "angle",
+        "geometry",
+        "math"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:56.909299+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/angle.svg; license: MIT."
+    },
+    {
+      "id": "tabler_triangle_d070b531",
+      "filename": "tabler-triangle.svg",
+      "label": "triangle",
+      "description": "Triangle icon for geometry and visual grouping.",
+      "tags": [
+        "geometry",
+        "math",
+        "shape"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:57.196319+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/triangle.svg; license: MIT."
+    },
+    {
+      "id": "tabler_square_1ed807a9",
+      "filename": "tabler-square.svg",
+      "label": "square",
+      "description": "Square icon for geometry, matrices, and grid diagrams.",
+      "tags": [
+        "geometry",
+        "grid",
+        "math",
+        "shape"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:57.416649+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/square.svg; license: MIT."
+    },
+    {
+      "id": "tabler_braces_154a18ec",
+      "filename": "tabler-braces.svg",
+      "label": "code braces",
+      "description": "Curly braces for code blocks, sets, and object literals.",
+      "tags": [
+        "code",
+        "cs",
+        "sets",
+        "syntax"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:57.667937+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/braces.svg; license: MIT."
+    },
+    {
+      "id": "tabler_brackets_efb5e683",
+      "filename": "tabler-brackets.svg",
+      "label": "brackets",
+      "description": "Brackets for arrays, intervals, and syntax examples.",
+      "tags": [
+        "array",
+        "cs",
+        "math",
+        "syntax"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:57.919395+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/brackets.svg; license: MIT."
+    },
+    {
+      "id": "tabler_brackets-angle_a593d7a2",
+      "filename": "tabler-brackets-angle.svg",
+      "label": "angle brackets",
+      "description": "Angle brackets for generics, HTML, and comparisons.",
+      "tags": [
+        "code",
+        "cs",
+        "html",
+        "syntax"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:58.250511+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/brackets-angle.svg; license: MIT."
+    },
+    {
+      "id": "tabler_code_dcebc6b4",
+      "filename": "tabler-code.svg",
+      "label": "code",
+      "description": "Code icon for programming lessons.",
+      "tags": [
+        "code",
+        "cs",
+        "programming"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:58.489045+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/code.svg; license: MIT."
+    },
+    {
+      "id": "tabler_codeblock_f295b85d",
+      "filename": "tabler-codeblock.svg",
+      "label": "code block",
+      "description": "Code block icon for snippets and pseudocode.",
+      "tags": [
+        "code",
+        "cs",
+        "programming",
+        "snippet"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:58.810778+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/codeblock.svg; license: MIT."
+    },
+    {
+      "id": "tabler_code-variable_216a053c",
+      "filename": "tabler-code-variable.svg",
+      "label": "code variable",
+      "description": "Variable icon for code examples and state changes.",
+      "tags": [
+        "code",
+        "cs",
+        "variable"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:59.056750+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/code-variable.svg; license: MIT."
+    },
+    {
+      "id": "tabler_terminal_5d7e9b0d",
+      "filename": "tabler-terminal.svg",
+      "label": "terminal",
+      "description": "Terminal icon for command-line and shell examples.",
+      "tags": [
+        "code",
+        "command-line",
+        "cs",
+        "terminal"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:59.301696+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/terminal.svg; license: MIT."
+    },
+    {
+      "id": "tabler_source-code_b8d43026",
+      "filename": "tabler-source-code.svg",
+      "label": "source code",
+      "description": "Source code icon for files and implementation details.",
+      "tags": [
+        "code",
+        "cs",
+        "file",
+        "source"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:59.530936+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/source-code.svg; license: MIT."
+    },
+    {
+      "id": "tabler_api_2b58535d",
+      "filename": "tabler-api.svg",
+      "label": "api",
+      "description": "API icon for interfaces and service boundaries.",
+      "tags": [
+        "api",
+        "cs",
+        "interface",
+        "service"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:39:59.900417+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/api.svg; license: MIT."
+    },
+    {
+      "id": "tabler_binary_1e7cf8bd",
+      "filename": "tabler-binary.svg",
+      "label": "binary digits",
+      "description": "Binary digits icon for bits, encoding, and low-level computing.",
+      "tags": [
+        "binary",
+        "bits",
+        "cs",
+        "data"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:00.254119+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/binary.svg; license: MIT."
+    },
+    {
+      "id": "tabler_binary-tree_05a7a8bd",
+      "filename": "tabler-binary-tree.svg",
+      "label": "binary tree",
+      "description": "Binary tree icon for tree structures and recursion.",
+      "tags": [
+        "algorithm",
+        "binary",
+        "cs",
+        "tree"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:00.478241+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/binary-tree.svg; license: MIT."
+    },
+    {
+      "id": "tabler_binary-tree-2_471748ca",
+      "filename": "tabler-binary-tree-2.svg",
+      "label": "binary tree nodes",
+      "description": "Alternative binary tree icon for search trees and heaps.",
+      "tags": [
+        "binary",
+        "cs",
+        "nodes",
+        "tree"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:00.830338+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/binary-tree-2.svg; license: MIT."
+    },
+    {
+      "id": "tabler_git-branch_485a7aef",
+      "filename": "tabler-git-branch.svg",
+      "label": "logic branch",
+      "description": "Branching icon for decisions, conditionals, and version history.",
+      "tags": [
+        "algorithm",
+        "branch",
+        "cs",
+        "logic"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:01.061052+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/git-branch.svg; license: MIT."
+    },
+    {
+      "id": "tabler_hierarchy_2c32a7d0",
+      "filename": "tabler-hierarchy.svg",
+      "label": "hierarchy",
+      "description": "Hierarchy icon for trees, inheritance, and nested structures.",
+      "tags": [
+        "cs",
+        "hierarchy",
+        "structure",
+        "tree"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:01.390064+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/hierarchy.svg; license: MIT."
+    },
+    {
+      "id": "tabler_sitemap_afeb36b8",
+      "filename": "tabler-sitemap.svg",
+      "label": "sitemap",
+      "description": "Sitemap icon for graphs, trees, and system structure.",
+      "tags": [
+        "cs",
+        "graph",
+        "structure",
+        "tree"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:01.742695+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/sitemap.svg; license: MIT."
+    },
+    {
+      "id": "tabler_subtask_50e6bf81",
+      "filename": "tabler-subtask.svg",
+      "label": "subtask flow",
+      "description": "Subtask flow icon for decomposition and recursive subproblems.",
+      "tags": [
+        "algorithm",
+        "cs",
+        "decomposition",
+        "flow"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:01.963635+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/subtask.svg; license: MIT."
+    },
+    {
+      "id": "tabler_schema_25a25eae",
+      "filename": "tabler-schema.svg",
+      "label": "schema",
+      "description": "Schema icon for structured data and database models.",
+      "tags": [
+        "cs",
+        "data",
+        "database",
+        "schema"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:02.207764+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/schema.svg; license: MIT."
+    },
+    {
+      "id": "tabler_serverless_39064853",
+      "filename": "tabler-serverless.svg",
+      "label": "serverless",
+      "description": "Serverless icon for cloud functions and managed compute.",
+      "tags": [
+        "backend",
+        "cloud",
+        "cs",
+        "serverless"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:02.448684+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/serverless.svg; license: MIT."
+    },
+    {
+      "id": "tabler_network_bc5ca95d",
+      "filename": "tabler-network.svg",
+      "label": "network",
+      "description": "Network icon for connections, protocols, and distributed systems.",
+      "tags": [
+        "cs",
+        "distributed",
+        "network",
+        "systems"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:02.688335+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/network.svg; license: MIT."
+    },
+    {
+      "id": "tabler_router_8b1145ae",
+      "filename": "tabler-router.svg",
+      "label": "router",
+      "description": "Router icon for packets, networks, and internet paths.",
+      "tags": [
+        "cs",
+        "internet",
+        "network",
+        "router"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:02.960811+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/router.svg; license: MIT."
+    },
+    {
+      "id": "tabler_cloud-computing_16049ae9",
+      "filename": "tabler-cloud-computing.svg",
+      "label": "cloud computing",
+      "description": "Cloud computing icon for hosted infrastructure.",
+      "tags": [
+        "cloud",
+        "computing",
+        "cs",
+        "network"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:03.232114+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/cloud-computing.svg; license: MIT."
+    },
+    {
+      "id": "tabler_stack_795eb447",
+      "filename": "tabler-stack.svg",
+      "label": "stack",
+      "description": "Stack icon for LIFO data structures and call stacks.",
+      "tags": [
+        "algorithm",
+        "cs",
+        "data-structure",
+        "stack"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:03.470288+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/stack.svg; license: MIT."
+    },
+    {
+      "id": "tabler_stack-push_d1a2ae8c",
+      "filename": "tabler-stack-push.svg",
+      "label": "stack push",
+      "description": "Stack push icon for adding items to a stack.",
+      "tags": [
+        "cs",
+        "data-structure",
+        "push",
+        "stack"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:03.724372+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/stack-push.svg; license: MIT."
+    },
+    {
+      "id": "tabler_stack-pop_efbbdfb8",
+      "filename": "tabler-stack-pop.svg",
+      "label": "stack pop",
+      "description": "Stack pop icon for removing items from a stack.",
+      "tags": [
+        "cs",
+        "data-structure",
+        "pop",
+        "stack"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:03.978002+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/stack-pop.svg; license: MIT."
+    },
+    {
+      "id": "tabler_queue-pop-in_d76f7cd7",
+      "filename": "tabler-queue-pop-in.svg",
+      "label": "queue enqueue",
+      "description": "Queue enqueue icon for FIFO data structure lessons.",
+      "tags": [
+        "cs",
+        "data-structure",
+        "enqueue",
+        "queue"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:04.200613+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/queue-pop-in.svg; license: MIT."
+    },
+    {
+      "id": "tabler_queue-pop-out_9e354a02",
+      "filename": "tabler-queue-pop-out.svg",
+      "label": "queue dequeue",
+      "description": "Queue dequeue icon for FIFO data structure lessons.",
+      "tags": [
+        "cs",
+        "data-structure",
+        "dequeue",
+        "queue"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:04.441123+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/queue-pop-out.svg; license: MIT."
+    },
+    {
+      "id": "tabler_sort-ascending_3ea1b2d2",
+      "filename": "tabler-sort-ascending.svg",
+      "label": "sort ascending",
+      "description": "Sort ascending icon for sorting algorithms.",
+      "tags": [
+        "algorithm",
+        "cs",
+        "order",
+        "sort"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:04.705061+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/sort-ascending.svg; license: MIT."
+    },
+    {
+      "id": "tabler_sort-descending_f16673de",
+      "filename": "tabler-sort-descending.svg",
+      "label": "sort descending",
+      "description": "Sort descending icon for sorting algorithms.",
+      "tags": [
+        "algorithm",
+        "cs",
+        "order",
+        "sort"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:05.083607+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/sort-descending.svg; license: MIT."
+    },
+    {
+      "id": "tabler_arrows-sort_5e9c7098",
+      "filename": "tabler-arrows-sort.svg",
+      "label": "sort arrows",
+      "description": "Bidirectional sort arrows for comparing and swapping.",
+      "tags": [
+        "algorithm",
+        "arrows",
+        "cs",
+        "sort"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:05.323133+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/arrows-sort.svg; license: MIT."
+    },
+    {
+      "id": "tabler_hash_978952f5",
+      "filename": "tabler-hash.svg",
+      "label": "hash symbol",
+      "description": "Hash icon for hashing, maps, and identifiers.",
+      "tags": [
+        "cs",
+        "hash",
+        "identifier",
+        "map"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:05.611695+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/hash.svg; license: MIT."
+    },
+    {
+      "id": "tabler_key_b36c19b6",
+      "filename": "tabler-key.svg",
+      "label": "key",
+      "description": "Key icon for key-value pairs, encryption, and access.",
+      "tags": [
+        "cs",
+        "key",
+        "map",
+        "security"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:05.867683+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/key.svg; license: MIT."
+    },
+    {
+      "id": "tabler_bug_18245202",
+      "filename": "tabler-bug.svg",
+      "label": "bug",
+      "description": "Bug icon for debugging and software defects.",
+      "tags": [
+        "bug",
+        "code",
+        "cs",
+        "debugging"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:06.107036+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/bug.svg; license: MIT."
+    },
+    {
+      "id": "tabler_robot_d1dbd329",
+      "filename": "tabler-robot.svg",
+      "label": "robot",
+      "description": "Robot icon for AI, agents, and automation.",
+      "tags": [
+        "ai",
+        "automation",
+        "cs",
+        "robot"
+      ],
+      "viewBox": "0 0 24 24",
+      "created_at": "2026-05-31T22:40:06.358163+00:00",
+      "source_prompt": "Open-source Tabler SVG icon downloaded from https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline/robot.svg; license: MIT."
     }
   ]
 }

@@ -13,6 +13,7 @@ from .utils import short_hash, slugify, write_json
 
 LUCIDE_RAW_BASE = "https://raw.githubusercontent.com/lucide-icons/lucide/main/icons"
 BOOTSTRAP_RAW_BASE = "https://raw.githubusercontent.com/twbs/icons/main/icons"
+TABLER_RAW_BASE = "https://raw.githubusercontent.com/tabler/tabler-icons/main/icons/outline"
 SVGREPO_SHOW_BASE = "https://www.svgrepo.com/show"
 
 
@@ -29,14 +30,21 @@ class CuratedIcon:
     def url(self) -> str:
         if self.provider == "svgrepo":
             return f"{SVGREPO_SHOW_BASE}/{self.remote_id}/{self.slug}.svg"
-        base = BOOTSTRAP_RAW_BASE if self.provider == "bootstrap" else LUCIDE_RAW_BASE
+        if self.provider == "bootstrap":
+            base = BOOTSTRAP_RAW_BASE
+        elif self.provider == "tabler":
+            base = TABLER_RAW_BASE
+        else:
+            base = LUCIDE_RAW_BASE
         return f"{base}/{self.slug}.svg"
 
     @property
     def license_name(self) -> str:
         if self.provider == "svgrepo":
             return "CC0"
-        return "MIT" if self.provider == "bootstrap" else "ISC"
+        if self.provider in {"bootstrap", "tabler"}:
+            return "MIT"
+        return "ISC"
 
 
 @dataclass(slots=True)
@@ -117,6 +125,91 @@ CURATED_BOOTSTRAP_ICONS: tuple[CuratedIcon, ...] = (
 )
 
 
+CURATED_TABLER_MATH_CS_ICONS: tuple[CuratedIcon, ...] = (
+    CuratedIcon("math-symbols", "math symbols", "Core math symbols for equations and notation callouts.", ("math", "symbols", "operator", "education"), "tabler"),
+    CuratedIcon("math", "math notation", "General math notation icon for lesson introductions.", ("math", "notation", "education"), "tabler"),
+    CuratedIcon("math-function", "function curve", "Function graph icon for f(x), transformations, and mappings.", ("math", "function", "graph", "curve"), "tabler"),
+    CuratedIcon("math-function-y", "y function", "Y equals function icon for coordinate graph explanations.", ("math", "function", "y", "graph"), "tabler"),
+    CuratedIcon("function", "function symbol", "Function symbol for reusable function and mapping visuals.", ("math", "function", "symbol"), "tabler"),
+    CuratedIcon("math-integral", "integral symbol", "Integral symbol for calculus and accumulation visuals.", ("math", "calculus", "integral"), "tabler"),
+    CuratedIcon("math-integrals", "multiple integrals", "Multiple integral symbols for advanced calculus visuals.", ("math", "calculus", "integral"), "tabler"),
+    CuratedIcon("math-pi", "pi symbol", "Pi symbol for circles, radians, and constants.", ("math", "pi", "constant", "geometry"), "tabler"),
+    CuratedIcon("math-avg", "average symbol", "Average symbol for statistics and mean value lessons.", ("math", "statistics", "average", "data"), "tabler"),
+    CuratedIcon("math-max-min", "max min symbol", "Max/min symbol for optimization and bounds.", ("math", "optimization", "minimum", "maximum"), "tabler"),
+    CuratedIcon("math-sin", "sine function", "Sine function icon for trigonometry and waves.", ("math", "trigonometry", "sine", "wave"), "tabler"),
+    CuratedIcon("math-cos", "cosine function", "Cosine function icon for trigonometry and periodic motion.", ("math", "trigonometry", "cosine", "wave"), "tabler"),
+    CuratedIcon("math-x-plus-y", "x plus y", "Algebraic x plus y expression for addition examples.", ("math", "algebra", "addition"), "tabler"),
+    CuratedIcon("math-x-minus-y", "x minus y", "Algebraic x minus y expression for subtraction examples.", ("math", "algebra", "subtraction"), "tabler"),
+    CuratedIcon("math-x-divide-y", "x divided by y", "Algebraic division expression for ratios and fractions.", ("math", "algebra", "division", "ratio"), "tabler"),
+    CuratedIcon("math-equal-greater", "greater or equal", "Greater-than-or-equal symbol for inequalities.", ("math", "inequality", "operator"), "tabler"),
+    CuratedIcon("math-equal-lower", "less or equal", "Less-than-or-equal symbol for inequalities.", ("math", "inequality", "operator"), "tabler"),
+    CuratedIcon("math-not", "not operator", "Not operator for logic, negation, and inequalities.", ("math", "logic", "operator"), "tabler"),
+    CuratedIcon("infinity", "infinity symbol", "Infinity symbol for limits, loops, and unbounded growth.", ("math", "infinity", "limit", "loop"), "tabler"),
+    CuratedIcon("lambda", "lambda symbol", "Lambda symbol for functions, calculus, and functional programming.", ("math", "lambda", "function", "cs"), "tabler"),
+    CuratedIcon("delta", "delta symbol", "Delta symbol for change, differences, and gradients.", ("math", "delta", "change", "calculus"), "tabler"),
+    CuratedIcon("omega", "omega symbol", "Omega symbol for asymptotic bounds and constants.", ("math", "omega", "complexity", "cs"), "tabler"),
+    CuratedIcon("abacus", "abacus", "Abacus icon for arithmetic and number sense.", ("math", "arithmetic", "numbers", "education"), "tabler"),
+    CuratedIcon("calculator", "calculator", "Calculator icon for numeric computation.", ("math", "calculator", "numbers"), "tabler"),
+    CuratedIcon("percentage", "percentage symbol", "Percentage symbol for rates, proportions, and statistics.", ("math", "percentage", "ratio", "statistics"), "tabler"),
+    CuratedIcon("plus-minus", "plus minus", "Plus-minus operator for uncertainty and positive/negative cases.", ("math", "operator", "plus", "minus"), "tabler"),
+    CuratedIcon("equal", "equals sign", "Equals sign for equations and comparisons.", ("math", "equals", "equation", "operator"), "tabler"),
+    CuratedIcon("equal-not", "not equal sign", "Not-equal sign for comparisons and logic.", ("math", "not-equal", "operator", "logic"), "tabler"),
+    CuratedIcon("divide", "division sign", "Division sign for ratios and fractions.", ("math", "division", "operator"), "tabler"),
+    CuratedIcon("axis-x", "axis x", "X-axis icon for coordinate planes and graphs.", ("math", "axis", "graph", "x"), "tabler"),
+    CuratedIcon("axis-y", "axis y", "Y-axis icon for coordinate planes and graphs.", ("math", "axis", "graph", "y"), "tabler"),
+    CuratedIcon("graph", "graph network", "Graph/network icon for nodes, edges, and relationships.", ("math", "graph", "network", "cs"), "tabler"),
+    CuratedIcon("chart-line", "line chart", "Line chart icon for functions, trends, and time series.", ("math", "chart", "data", "line"), "tabler"),
+    CuratedIcon("chart-bar", "bar chart", "Bar chart icon for comparisons and histograms.", ("math", "chart", "data", "bar"), "tabler"),
+    CuratedIcon("chart-scatter", "scatter plot", "Scatter plot icon for datasets and correlation.", ("math", "chart", "data", "scatter"), "tabler"),
+    CuratedIcon("chart-histogram", "histogram", "Histogram icon for distributions and frequency bins.", ("math", "statistics", "data", "histogram"), "tabler"),
+    CuratedIcon("chart-treemap", "treemap chart", "Treemap icon for nested proportions and partitions.", ("math", "chart", "data", "tree"), "tabler"),
+    CuratedIcon("matrix", "matrix", "Matrix icon for linear algebra and grids of numbers.", ("math", "matrix", "linear-algebra", "data"), "tabler"),
+    CuratedIcon("vector", "vector", "Vector icon for geometry, direction, and linear algebra.", ("math", "vector", "geometry"), "tabler"),
+    CuratedIcon("angle", "angle", "Angle icon for geometry and trigonometry.", ("math", "geometry", "angle"), "tabler"),
+    CuratedIcon("triangle", "triangle", "Triangle icon for geometry and visual grouping.", ("math", "geometry", "shape"), "tabler"),
+    CuratedIcon("circle", "circle", "Circle icon for geometry, nodes, and simple diagrams.", ("math", "geometry", "shape", "node"), "tabler"),
+    CuratedIcon("square", "square", "Square icon for geometry, matrices, and grid diagrams.", ("math", "geometry", "shape", "grid"), "tabler"),
+    CuratedIcon("braces", "code braces", "Curly braces for code blocks, sets, and object literals.", ("cs", "code", "sets", "syntax"), "tabler"),
+    CuratedIcon("brackets", "brackets", "Brackets for arrays, intervals, and syntax examples.", ("cs", "math", "syntax", "array"), "tabler"),
+    CuratedIcon("brackets-angle", "angle brackets", "Angle brackets for generics, HTML, and comparisons.", ("cs", "code", "syntax", "html"), "tabler"),
+    CuratedIcon("code", "code", "Code icon for programming lessons.", ("cs", "code", "programming"), "tabler"),
+    CuratedIcon("codeblock", "code block", "Code block icon for snippets and pseudocode.", ("cs", "code", "snippet", "programming"), "tabler"),
+    CuratedIcon("code-variable", "code variable", "Variable icon for code examples and state changes.", ("cs", "code", "variable"), "tabler"),
+    CuratedIcon("terminal", "terminal", "Terminal icon for command-line and shell examples.", ("cs", "terminal", "command-line", "code"), "tabler"),
+    CuratedIcon("source-code", "source code", "Source code icon for files and implementation details.", ("cs", "source", "code", "file"), "tabler"),
+    CuratedIcon("api", "api", "API icon for interfaces and service boundaries.", ("cs", "api", "interface", "service"), "tabler"),
+    CuratedIcon("binary", "binary digits", "Binary digits icon for bits, encoding, and low-level computing.", ("cs", "binary", "bits", "data"), "tabler"),
+    CuratedIcon("binary-tree", "binary tree", "Binary tree icon for tree structures and recursion.", ("cs", "tree", "binary", "algorithm"), "tabler"),
+    CuratedIcon("binary-tree-2", "binary tree nodes", "Alternative binary tree icon for search trees and heaps.", ("cs", "tree", "binary", "nodes"), "tabler"),
+    CuratedIcon("git-branch", "logic branch", "Branching icon for decisions, conditionals, and version history.", ("cs", "branch", "logic", "algorithm"), "tabler"),
+    CuratedIcon("hierarchy", "hierarchy", "Hierarchy icon for trees, inheritance, and nested structures.", ("cs", "hierarchy", "tree", "structure"), "tabler"),
+    CuratedIcon("sitemap", "sitemap", "Sitemap icon for graphs, trees, and system structure.", ("cs", "graph", "tree", "structure"), "tabler"),
+    CuratedIcon("subtask", "subtask flow", "Subtask flow icon for decomposition and recursive subproblems.", ("cs", "algorithm", "flow", "decomposition"), "tabler"),
+    CuratedIcon("schema", "schema", "Schema icon for structured data and database models.", ("cs", "data", "schema", "database"), "tabler"),
+    CuratedIcon("database", "database", "Database icon for storage, tables, and queries.", ("cs", "database", "data", "storage"), "tabler"),
+    CuratedIcon("server", "server", "Server icon for backend systems and request flow.", ("cs", "server", "backend", "network"), "tabler"),
+    CuratedIcon("serverless", "serverless", "Serverless icon for cloud functions and managed compute.", ("cs", "serverless", "cloud", "backend"), "tabler"),
+    CuratedIcon("network", "network", "Network icon for connections, protocols, and distributed systems.", ("cs", "network", "distributed", "systems"), "tabler"),
+    CuratedIcon("router", "router", "Router icon for packets, networks, and internet paths.", ("cs", "network", "router", "internet"), "tabler"),
+    CuratedIcon("cpu", "cpu chip", "CPU chip icon for processors, architecture, and computation.", ("cs", "cpu", "processor", "hardware"), "tabler"),
+    CuratedIcon("cloud-computing", "cloud computing", "Cloud computing icon for hosted infrastructure.", ("cs", "cloud", "computing", "network"), "tabler"),
+    CuratedIcon("stack", "stack", "Stack icon for LIFO data structures and call stacks.", ("cs", "stack", "data-structure", "algorithm"), "tabler"),
+    CuratedIcon("stack-push", "stack push", "Stack push icon for adding items to a stack.", ("cs", "stack", "push", "data-structure"), "tabler"),
+    CuratedIcon("stack-pop", "stack pop", "Stack pop icon for removing items from a stack.", ("cs", "stack", "pop", "data-structure"), "tabler"),
+    CuratedIcon("queue-pop-in", "queue enqueue", "Queue enqueue icon for FIFO data structure lessons.", ("cs", "queue", "enqueue", "data-structure"), "tabler"),
+    CuratedIcon("queue-pop-out", "queue dequeue", "Queue dequeue icon for FIFO data structure lessons.", ("cs", "queue", "dequeue", "data-structure"), "tabler"),
+    CuratedIcon("sort-ascending", "sort ascending", "Sort ascending icon for sorting algorithms.", ("cs", "sort", "algorithm", "order"), "tabler"),
+    CuratedIcon("sort-descending", "sort descending", "Sort descending icon for sorting algorithms.", ("cs", "sort", "algorithm", "order"), "tabler"),
+    CuratedIcon("arrows-sort", "sort arrows", "Bidirectional sort arrows for comparing and swapping.", ("cs", "sort", "algorithm", "arrows"), "tabler"),
+    CuratedIcon("hash", "hash symbol", "Hash icon for hashing, maps, and identifiers.", ("cs", "hash", "map", "identifier"), "tabler"),
+    CuratedIcon("key", "key", "Key icon for key-value pairs, encryption, and access.", ("cs", "key", "map", "security"), "tabler"),
+    CuratedIcon("lock", "lock", "Lock icon for security, privacy, and encryption.", ("cs", "security", "lock", "encryption"), "tabler"),
+    CuratedIcon("bug", "bug", "Bug icon for debugging and software defects.", ("cs", "debugging", "bug", "code"), "tabler"),
+    CuratedIcon("robot", "robot", "Robot icon for AI, agents, and automation.", ("cs", "ai", "robot", "automation"), "tabler"),
+    CuratedIcon("brain", "brain", "Brain icon for learning, neural networks, and reasoning.", ("cs", "ai", "brain", "learning"), "tabler"),
+)
+
+
 CURATED_SVGREPO_ICONS: tuple[CuratedIcon, ...] = (
     CuratedIcon("raindrop", "colorful raindrop", "Colorful raindrop illustration for a friendly water character.", ("water", "raindrop", "drop", "color", "character"), "svgrepo", "78833"),
     CuratedIcon("water-drop", "water drop character", "Large water-drop illustration for a main droplet character.", ("water", "drop", "droplet", "character", "blue"), "svgrepo", "120133"),
@@ -130,6 +223,22 @@ CURATED_SVGREPO_ICONS: tuple[CuratedIcon, ...] = (
     CuratedIcon("water", "water splash", "Water splash illustration for oceans, lakes, or collection.", ("water", "splash", "liquid", "blue"), "svgrepo", "297151"),
     CuratedIcon("happy-kids", "happy kids illustration", "Happy kids illustration for playful educational videos.", ("kids", "happy", "people", "education", "fun"), "svgrepo", "1992"),
     CuratedIcon("happy-kid-playground", "playful kid illustration", "Playful kid illustration for friendly explainer scenes.", ("kid", "playful", "person", "education", "fun"), "svgrepo", "418280"),
+    CuratedIcon("medieval-castle", "medieval castle", "Medieval castle illustration for fantasy kingdom scenes.", ("medieval", "castle", "kingdom", "fortress", "fantasy"), "svgrepo", "444137"),
+    CuratedIcon("medieval-knight", "medieval knight", "Armored medieval knight illustration for heroic story scenes.", ("medieval", "knight", "hero", "armor", "fantasy"), "svgrepo", "444141"),
+    CuratedIcon("knight", "young knight", "Knight figure for quest, courage, and adventure scenes.", ("knight", "hero", "quest", "sword", "fantasy"), "svgrepo", "162875"),
+    CuratedIcon("knight-helmet", "knight helmet", "Knight helmet icon for armor, identity, and dramatic close-ups.", ("helmet", "knight", "armor", "medieval"), "svgrepo", "307023"),
+    CuratedIcon("dragon", "dragon", "Dragon illustration for fantasy threats, ancient curses, and cliffhangers.", ("dragon", "fantasy", "monster", "curse", "fire"), "svgrepo", "403214"),
+    CuratedIcon("dragonside", "dragon silhouette", "Side-view dragon silhouette for ominous fantasy scenes.", ("dragon", "silhouette", "fantasy", "shadow"), "svgrepo", "400187"),
+    CuratedIcon("sword", "sword", "Sword icon for quests, danger, and heroic reveals.", ("sword", "weapon", "quest", "knight"), "svgrepo", "66502"),
+    CuratedIcon("excalibur-sword", "glowing sword", "Legendary sword illustration for magic and royal destiny.", ("sword", "excalibur", "magic", "legend"), "svgrepo", "254373"),
+    CuratedIcon("shield-with-crown", "royal shield", "Shield with crown for kingdom, royal guard, and ancient seal scenes.", ("shield", "crown", "royal", "seal", "kingdom"), "svgrepo", "50129"),
+    CuratedIcon("crown", "crown", "Crown icon for royal bloodlines, princesses, and throne-room scenes.", ("crown", "royal", "kingdom", "princess"), "svgrepo", "30829"),
+    CuratedIcon("princess", "hidden princess", "Princess illustration for hidden heir and rescue story beats.", ("princess", "royal", "heir", "character"), "svgrepo", "508393"),
+    CuratedIcon("crystal", "magic crystal", "Crystal illustration for spells, prisons, and glowing magical objects.", ("crystal", "magic", "spell", "prison"), "svgrepo", "373532"),
+    CuratedIcon("crystals", "crystal cluster", "Cluster of crystals for caves, magic halls, and enchanted prisons.", ("crystal", "cluster", "magic", "cave"), "svgrepo", "499101"),
+    CuratedIcon("door-open", "open stone door", "Open door icon for secret passages and dramatic reveals.", ("door", "open", "secret", "passage"), "svgrepo", "351965"),
+    CuratedIcon("dungeon", "dungeon", "Dungeon icon for underground chambers and castle catacombs.", ("dungeon", "castle", "underground", "chamber"), "svgrepo", "351978"),
+    CuratedIcon("eye", "giant eye", "Eye icon for ominous cliffhanger reveals and hidden monsters.", ("eye", "monster", "cliffhanger", "watching"), "svgrepo", "344769"),
 )
 
 
@@ -163,7 +272,12 @@ def seed_open_source_assets(config: PipelineConfig) -> SeedResult:
         manifest = Manifest.model_validate_json(config.manifest_path.read_text(encoding="utf-8"))
 
     result = SeedResult()
-    for icon in [*CURATED_LUCIDE_ICONS, *CURATED_BOOTSTRAP_ICONS, *CURATED_SVGREPO_ICONS]:
+    for icon in [
+        *CURATED_LUCIDE_ICONS,
+        *CURATED_BOOTSTRAP_ICONS,
+        *CURATED_TABLER_MATH_CS_ICONS,
+        *CURATED_SVGREPO_ICONS,
+    ]:
         if _find_existing(manifest, icon, config.asset_dir):
             result.reused += 1
             continue
@@ -206,9 +320,18 @@ def seed_open_source_assets(config: PipelineConfig) -> SeedResult:
     return result
 
 
-def available_asset_labels(config: PipelineConfig, limit: int) -> list[str]:
+def available_asset_labels(config: PipelineConfig, limit: int, preferred_tags: tuple[str, ...] = ()) -> list[str]:
     if not config.manifest_path.exists():
         return []
     manifest = Manifest.model_validate_json(config.manifest_path.read_text(encoding="utf-8"))
-    labels = [entry.label for entry in manifest.assets if (config.asset_dir / entry.filename).exists()]
-    return labels[:limit]
+    entries = [entry for entry in manifest.assets if (config.asset_dir / entry.filename).exists()]
+    if preferred_tags:
+        preferred = {tag.lower() for tag in preferred_tags}
+
+        def score(entry: ManifestEntry) -> int:
+            entry_tags = {tag.lower() for tag in entry.tags}
+            entry_text = f"{entry.label} {entry.description}".lower()
+            return sum(1 for tag in preferred if tag in entry_tags or tag in entry_text)
+
+        entries.sort(key=score, reverse=True)
+    return [entry.label for entry in entries[:limit]]
