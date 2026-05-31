@@ -159,10 +159,20 @@ def _wrap_caption(text: str, max_chars: int = 26) -> list[str]:
     return lines[:4]
 
 
-def _caption_box_svg(text: str, position: object, opacity: float, config: PipelineConfig) -> str:
-    lines = _wrap_caption(text)
-    font_size = 54
-    line_height = 66
+def _caption_box_svg(
+    text: str,
+    position: object,
+    opacity: float,
+    config: PipelineConfig,
+    *,
+    font_size: int = 54,
+    max_chars: int = 26,
+    fill: str = "#000000",
+    fill_opacity: float = 0.58,
+    font_family: str = "Arial, Helvetica, sans-serif",
+) -> str:
+    lines = _wrap_caption(text, max_chars=max_chars)
+    line_height = int(font_size * 1.22)
     max_line = max((len(line) for line in lines), default=1)
     box_w = _clamp(max_line * font_size * 0.55 + 96, 360, 920)
     box_h = len(lines) * line_height + 46
@@ -179,7 +189,7 @@ def _caption_box_svg(text: str, position: object, opacity: float, config: Pipeli
     x = center_x * config.width - box_w / 2
     y = center_y * config.height - box_h / 2
     tspans = []
-    start_y = y + 66
+    start_y = y + 34 + font_size
     for index, line in enumerate(lines):
         tspans.append(
             f'<tspan x="{center_x * config.width:.2f}" y="{start_y + index * line_height:.2f}">'
@@ -188,8 +198,8 @@ def _caption_box_svg(text: str, position: object, opacity: float, config: Pipeli
     return (
         f'<g opacity="{opacity:.3f}">'
         f'<rect x="{x:.2f}" y="{y:.2f}" width="{box_w:.2f}" height="{box_h:.2f}" '
-        'rx="24" fill="#000000" fill-opacity="0.58"/>'
-        f'<text text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="{font_size}" '
+        f'rx="18" fill="{fill}" fill-opacity="{fill_opacity:.2f}"/>'
+        f'<text text-anchor="middle" font-family="{font_family}" font-size="{font_size}" '
         'font-weight="700" fill="#ffffff">'
         f"{''.join(tspans)}</text></g>"
     )
@@ -200,7 +210,17 @@ def _caption_svg(caption: Caption, scene: Scene, t_sec: float, config: PipelineC
     if not visible:
         return ""
     opacity = min(1.0, progress * 5.0)
-    return _caption_box_svg(caption.text, caption.position, opacity, config)
+    return _caption_box_svg(
+        caption.text,
+        caption.position,
+        opacity,
+        config,
+        font_size=44,
+        max_chars=32,
+        fill="#102033",
+        fill_opacity=0.72,
+        font_family="Consolas, Menlo, Arial, Helvetica, sans-serif",
+    )
 
 
 def _script_cue_svg(cue: ScriptCue, t_sec: float, config: PipelineConfig) -> str:
@@ -223,6 +243,12 @@ def frame_svg(scene: Scene, scene_index: int, t_sec: float, assets: dict[str, In
     parts.extend(_element_svg(element, scene, t_sec, assets, config) for element in scene.elements)
     if config.add_captions:
         if scene.script_cues:
+            spoken_caption_text = {cue.text.strip().lower() for cue in scene.script_cues}
+            parts.extend(
+                _caption_svg(caption, scene, t_sec, config)
+                for caption in scene.captions
+                if caption.text.strip().lower() not in spoken_caption_text
+            )
             parts.extend(_script_cue_svg(cue, t_sec, config) for cue in scene.script_cues)
         else:
             parts.extend(_caption_svg(caption, scene, t_sec, config) for caption in scene.captions)

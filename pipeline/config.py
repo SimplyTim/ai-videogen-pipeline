@@ -24,8 +24,8 @@ class PipelineConfig:
     language_code: str = "en-US"
     planning_model: str = "gemini-3.5-flash"
     svg_retry_model: str = "gemini-3.1-pro-preview"
-    tts_model: str = "gemini-3.1-flash-tts-preview"
-    tts_fallback_model: str = "gemini-3.1-flash-tts"
+    tts_model: str = "gemini-2.5-flash-preview-tts"
+    tts_fallback_model: str = ""
     seed_open_source_assets: bool = True
     allow_gemini_svg_generation: bool = False
     max_gemini_calls: int = 12
@@ -36,6 +36,7 @@ class PipelineConfig:
     max_narration_chars_per_scene: int = 500
     max_asset_labels_in_prompt: int = 80
     target_words_per_second: float = 2.0
+    visual_domain: str = "auto"
 
     @classmethod
     def from_file(cls, path: Path) -> "PipelineConfig":
@@ -79,6 +80,8 @@ class PipelineConfig:
             raise ValueError("--max-captions-per-scene cannot be negative")
         if self.target_words_per_second <= 0:
             raise ValueError("target_words_per_second must be greater than 0")
+        if self.visual_domain not in {"auto", "general", "math-cs"}:
+            raise ValueError("visual_domain must be one of: auto, general, math-cs")
 
     def job_hash_payload(self, prompt: str) -> dict[str, Any]:
         return {
@@ -98,4 +101,5 @@ class PipelineConfig:
             "max_elements_per_scene": self.max_elements_per_scene,
             "max_captions_per_scene": self.max_captions_per_scene,
             "target_words_per_second": self.target_words_per_second,
+            "visual_domain": self.visual_domain,
         }

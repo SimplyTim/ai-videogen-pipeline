@@ -44,6 +44,11 @@ def _parser() -> argparse.ArgumentParser:
     parser.add_argument("--max-scenes", type=int, help="Maximum storyboard scenes.")
     parser.add_argument("--max-elements-per-scene", type=int, help="Maximum SVG elements per scene.")
     parser.add_argument("--max-captions-per-scene", type=int, help="Maximum captions per scene.")
+    parser.add_argument(
+        "--visual-domain",
+        choices=["auto", "general", "math-cs"],
+        help="Planner visual style. Use math-cs for diagram-heavy math and computer science explainers.",
+    )
     parser.add_argument("--debug", action="store_true", help="Print a traceback on failure.")
     return parser
 
@@ -86,6 +91,8 @@ def _load_config(args: argparse.Namespace) -> PipelineConfig:
         config.max_elements_per_scene = args.max_elements_per_scene
     if args.max_captions_per_scene is not None:
         config.max_captions_per_scene = args.max_captions_per_scene
+    if args.visual_domain is not None:
+        config.visual_domain = args.visual_domain
     config.validate()
     config.ensure_dirs()
     return config

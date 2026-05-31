@@ -2,7 +2,7 @@
 
 Command-line pipeline that turns one prompt into a finished short-form vertical video for YouTube Shorts, Instagram Reels, or TikTok.
 
-The visuals are composed from reusable local SVG assets. By default, the project seeds those assets from curated Lucide, Bootstrap Icons, and SVG Repo SVGs, and only falls back to Gemini SVG generation when explicitly requested. Narration is generated with Google Gemini TTS. The final output is an MP4 at `1080x1920`, `30fps` by default, H.264 video plus AAC audio.
+The pipeline composes visuals from reusable local SVG assets. The SVG asset library now includes a math/computer-science layer from Tabler Icons, so diagram-heavy explainers about algorithms, calculus, graphs, data structures, systems, and code work much better than character stories. Narration is generated with Google Gemini TTS. The final output is an MP4 at `1080x1920`, `30fps` by default, H.264 video plus AAC audio.
 
 ## Project Structure
 
@@ -13,7 +13,7 @@ pipeline/
   plan.py      # Gemini JSON storyboard planning
   assets.py    # SVG library lookup, generation, validation
   open_source_assets.py
-               # Curated Lucide, Bootstrap, and SVG Repo seeding
+               # Curated Lucide, Bootstrap, Tabler, and SVG Repo seeding
   audio.py     # Gemini TTS WAV generation and duration reconciliation
   render.py    # SVG timeline rendering to PNG frames
   compose.py   # ffmpeg frame/audio muxing to MP4
@@ -105,6 +105,22 @@ The command writes:
 - `output/<slug>.mp4`
 - `output/<slug>.storyboard.json`
 
+## Math And Computer Science Explainers
+
+For symbolic topics, force the planner into the math/CS visual domain. It will prefer formulas, axes, graphs, code blocks, data structures, flow arrows, databases, networks, stacks, queues, and algorithm diagrams. Spoken subtitles still come from `script_cues`; extra on-screen formula/callout labels are rendered separately so captions stay synced to narration.
+
+PowerShell:
+
+```powershell
+python -m pipeline "explain binary search with a sorted array and big O notation" --length 30 --visual-domain math-cs
+```
+
+Bash:
+
+```bash
+python -m pipeline "explain binary search with a sorted array and big O notation" --length 30 --visual-domain math-cs
+```
+
 ## Common Options
 
 ```text
@@ -121,6 +137,7 @@ The command writes:
 --max-gemini-calls 12          Hard cap on Gemini API calls for one run
 --max-scenes 6                 Maximum storyboard scenes
 --max-elements-per-scene 3     Maximum visual elements per scene
+--visual-domain math-cs        Prefer math/CS diagrams and symbols
 ```
 
 You can also pass `--config config.json`. Config keys match `PipelineConfig` fields in `pipeline/config.py`.
@@ -133,7 +150,7 @@ Reruns are idempotent:
 - Scene narration WAVs are cached by text, voice, style, language, and TTS model.
 - SVG frames are cached by the resolved storyboard, render settings, and SVG asset hashes.
 - Existing SVG assets in `assets/svg/` are reused through `assets/manifest.json`.
-- Curated Lucide, Bootstrap Icons, and SVG Repo SVGs are seeded automatically when missing.
+- Curated Lucide, Bootstrap Icons, Tabler math/CS icons, and SVG Repo SVGs are seeded automatically when missing.
 - Gemini SVG generation is disabled by default. Use `--generate-missing-assets` if you want the old fallback behavior.
 
 The SVG library is intentionally local and human-readable. Each manifest entry includes:
@@ -151,8 +168,8 @@ The SVG library is intentionally local and human-readable. Each manifest entry i
 }
 ```
 
-Seeded Lucide, Bootstrap Icons, and SVG Repo files are covered by `assets/THIRD_PARTY_NOTICES.md`.
-The repo includes the initial curated seed set, so normal reruns reuse local files. If those files are deleted, the seeder downloads them again from Lucide.
+Seeded Lucide, Bootstrap Icons, Tabler Icons, and SVG Repo files are covered by `assets/THIRD_PARTY_NOTICES.md`.
+The repo includes the initial curated seed set, so normal reruns reuse local files. If those files are deleted, the seeder downloads them again from the configured open-source providers.
 
 ## Gemini Resource Use
 
@@ -169,10 +186,10 @@ The default run is designed to keep Gemini usage small:
 - Planning: `gemini-3.5-flash`
 - Optional first-pass SVG generation: `gemini-3.5-flash`
 - SVG validation retry fallback: `gemini-3.1-pro-preview`
-- TTS primary: `gemini-3.1-flash-tts`
-- TTS fallback: `gemini-3.1-flash-tts-preview`
+- TTS primary: `gemini-2.5-flash-preview-tts`
+- TTS fallback: disabled by default; set `--tts-fallback-model gemini-2.5-pro-preview-tts` if your key has Pro TTS quota
 
-The fallback TTS model is included because Google currently documents the preview TTS model id in the Gemini speech generation guide.
+Google currently documents the Gemini 2.5 preview TTS model ids in the Gemini speech generation guide.
 
 Google references:
 

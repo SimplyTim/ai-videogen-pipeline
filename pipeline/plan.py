@@ -11,11 +11,41 @@ from .open_source_assets import available_asset_labels
 from .utils import GeminiBudget, extract_json_text, get_genai_client, read_json, retry, short_hash, write_json
 
 
-SYSTEM_INSTRUCTION = """You create strict JSON storyboards for 9:16 short-form videos.
-Plan only SVG-shape-friendly visuals: icons, diagrams, simple characters, arrows, labels, charts, and abstract backgrounds.
+SYSTEM_INSTRUCTION = """You create strict JSON storyboards for 9:16 short-form educational videos.
+Plan only SVG-shape-friendly visuals: icons, diagrams, formulas, arrows, charts, callouts, code/data diagrams, and abstract backgrounds.
 Use normalized positions where x/y are center points from 0 to 1. Keep important content away from bottom 15% and the right edge.
 Use concise narration that can be spoken naturally within each scene duration.
 Return valid JSON only."""
+
+
+MATH_CS_TERMS = {
+    "algorithm",
+    "api",
+    "binary",
+    "calculus",
+    "code",
+    "computer",
+    "complexity",
+    "database",
+    "data",
+    "derivative",
+    "function",
+    "graph",
+    "integral",
+    "logic",
+    "machine learning",
+    "math",
+    "matrix",
+    "network",
+    "proof",
+    "programming",
+    "recursion",
+    "server",
+    "sorting",
+    "statistics",
+    "tree",
+    "vector",
+}
 
 
 def _cache_path(prompt: str, config: PipelineConfig) -> Path:
@@ -31,7 +61,8 @@ def _cache_path(prompt: str, config: PipelineConfig) -> Path:
             "max_captions_per_scene": config.max_captions_per_scene,
             "max_narration_chars_per_scene": config.max_narration_chars_per_scene,
             "target_words_per_second": config.target_words_per_second,
-            "schema_version": 2,
+            "visual_domain": config.visual_domain,
+            "schema_version": 3,
         }
     )
     return config.cache_dir / "plans" / f"{key}.json"
@@ -72,6 +103,34 @@ def _compact_prompt(prompt: str, config: PipelineConfig) -> str:
     return text[: config.max_prompt_chars].rsplit(" ", 1)[0] + " [truncated]"
 
 
+def _is_math_cs_prompt(prompt: str, config: PipelineConfig) -> bool:
+    if config.visual_domain == "math-cs":
+        return True
+    if config.visual_domain == "general":
+        return False
+    prompt_lc = prompt.lower()
+    return any(term in prompt_lc for term in MATH_CS_TERMS)
+
+
+def _domain_prompt(math_cs: bool) -> str:
+    if not math_cs:
+        return (
+            "- Prefer diagrammatic educational visuals over story scenes.\n"
+            "- Element asset_query values should be reusable library labels like 'water droplet', 'sun', 'cycle arrows', "
+            "'line chart', or 'calculator'.\n"
+        )
+    return (
+        "- This is a math/computer-science explainer. Avoid character-driven story scenes.\n"
+        "- Use clean board-style visuals: formulas, axes, graphs, flow arrows, code blocks, binary trees, databases, "
+        "servers, networks, stacks, queues, matrices, and logic/operator symbols.\n"
+        "- Use captions for optional formula labels or diagram callouts, not for spoken subtitles. Spoken subtitles come "
+        "from script_cues and must exactly match narration.\n"
+        "- Choose asset_query labels from the math/CS library whenever possible, such as 'math symbols', 'function curve', "
+        "'integral symbol', 'pi symbol', 'axis x', 'axis y', 'graph network', 'binary tree', 'code block', "
+        "'database', 'server', 'stack', 'queue', 'matrix', 'logic branch', 'sort ascending', or 'algorithm flow'.\n"
+    )
+
+
 def build_storyboard(prompt: str, config: PipelineConfig, budget: GeminiBudget | None = None) -> Storyboard:
     cache_path = _cache_path(prompt, config)
     if cache_path.exists():
@@ -83,7 +142,23 @@ def build_storyboard(prompt: str, config: PipelineConfig, budget: GeminiBudget |
 
     client = get_genai_client()
     compact_prompt = _compact_prompt(prompt, config)
-    labels = available_asset_labels(config, config.max_asset_labels_in_prompt)
+    math_cs = _is_math_cs_prompt(prompt, config)
+    preferred_tags = (
+        "math",
+        "cs",
+        "computer-science",
+        "algorithm",
+        "data",
+        "code",
+        "function",
+        "graph",
+        "operator",
+        "calculus",
+        "tree",
+        "database",
+        "network",
+    ) if math_cs else ()
+    labels = available_asset_labels(config, config.max_asset_labels_in_prompt, preferred_tags=preferred_tags)
     target_words = max(8, int(config.target_length_sec * config.target_words_per_second))
     label_hint = ""
     if labels:
@@ -106,12 +181,10 @@ def build_storyboard(prompt: str, config: PipelineConfig, budget: GeminiBudget |
         "- Captions rendered on screen come from script_cues, so cue text must match spoken narration exactly.\n"
         f"- Use at most {config.max_elements_per_scene} elements per scene.\n"
         f"- Use at most {config.max_captions_per_scene} script_cues per scene.\n"
+        f"- Use at most {config.max_captions_per_scene} optional formula/callout captions per scene.\n"
         f"- Keep narration_text under {config.max_narration_chars_per_scene} characters per scene.\n"
-        "- Element asset_query values should be reusable library labels like 'water droplet', 'sun', or 'cycle arrows'.\n"
-        "- For friendly character stories, use face/person labels like 'happy face', 'excited person', or 'person'.\n"
-        "- Prefer richer illustration labels when they fit, such as 'water drop character', 'colorful raindrop', "
-        "'sun cloud rain scene', 'mountain river', 'water splash', or 'happy kids illustration'.\n"
-        "- Avoid photorealistic requests; describe simple generated SVG shapes.\n"
+        f"{_domain_prompt(math_cs)}"
+        "- Avoid photorealistic requests; describe clean, legible SVG-friendly shapes.\n"
         "- Every visual element timing should describe what is on screen during that cue or scene."
         f"{label_hint}"
     )
