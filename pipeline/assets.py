@@ -143,6 +143,7 @@ class AssetLibrary:
     def find_match(self, element: Element) -> ManifestEntry | None:
         query_text = f"{element.asset_query} {element.description}"
         query_tokens = _tokens(query_text)
+        asset_query_tokens = _tokens(element.asset_query)
         best_entry: ManifestEntry | None = None
         best_score = 0.0
         for entry in self.manifest.assets:
@@ -155,6 +156,8 @@ class AssetLibrary:
             score = overlap / max(1, len(query_tokens))
             if exact_label:
                 score += 1.0
+            if asset_query_tokens and asset_query_tokens <= entry_tokens:
+                score += 0.65
             if any(tag.lower() in element.asset_query.lower() for tag in entry.tags):
                 score += 0.15
             if score > best_score:
